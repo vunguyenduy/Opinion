@@ -10,9 +10,7 @@
     <content src="index.html" />
     <access origin="*" />
 
-    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
-        <false/>
-    </gap:config-file>
+    <preference name="Fullscreen" value="false" />
 
     <icon src="resources/icons/Icon.png" />
 
