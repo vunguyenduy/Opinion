@@ -27,4 +27,21 @@
     <icon src="resources/icons/Icon@2x.png" gap:platform="ios" width="114" height="114" />
 
     <icon src="resources/icons/Icon~ipad@2x.png" gap:platform="ios" width="114" height="114" />
+
+    <!-- For Android-->
+    <icon src="resources/icons/android/op-63.png" gap:platform="android" gap:density="ldpi" />
+    <icon src="resources/icons/android/op-63.png" gap:platform="android" gap:density="mdpi" />
+    <icon src="resources/icons/android/op-94.png" gap:platform="android" gap:density="hdpi" />
+    <icon src="resources/icons/android/op-125.png" gap:platform="android" gap:density="xhdpi" />
+
+    <gap:splash src="resources/startup/ios/op-640x960.png" gap:platform="ios" width="640" height="960" />
+    <gap:splash src="resources/startup/ios/op-640x1136.png" gap:platform="ios" width="640" height="1136" />
+    <gap:splash src="resources/startup/ios/op-1024x748.png" gap:platform="ios" width="1024" height="748" />
+    <gap:splash src="resources/startup/ios/op-2048x1496.png" gap:platform="ios" width="2048" height="1496" />
+    <gap:splash src="resources/startup/ios/op-1536x2008.png" gap:platform="ios" width="1536" height="2008" />
+
+    <gap:splash src="resources/startup/android/op-480x800.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="resources/startup/android/op-480x800.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="resources/startup/android/op-1080x1920.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="resources/startup/android/op-1080x1920.png" gap:platform="android" gap:density="xhdpi" />
 </widget>
