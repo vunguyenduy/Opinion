@@ -10,6 +10,10 @@
     <content src="index.html" />
     <access origin="*" />
 
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+        <false/>
+    </gap:config-file>
+
     <icon src="resources/icons/Icon.png" />
 
     <icon src="resources/icons/Icon.png" gap:platform="ios" width="57" height="57" />
