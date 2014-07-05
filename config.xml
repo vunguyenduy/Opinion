@@ -11,6 +11,14 @@
     <access origin="*" />
 
     <preference name="Fullscreen" value="true" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+    <gap:config-file platform="ios" parent="UIStatusBarHidden">
+        <true/>
+    </gap:config-file>
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
+        <false/>
+    </gap:config-file>
+    <preference name="StatusBarOverlaysWebView" value="true" />
 
     <icon src="resources/icons/Icon.png" />
 
